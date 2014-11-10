@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.535,c:\program files (x86)\embarcadero\rad studio\10.0\source\data\dsnap\MidasLib.pas=</Transaction>
     <Transaction>1899.12.30 00:00:00.000.333,=c:\program files (x86)\embarcadero\rad studio\10.0\source\data\dsnap\MidasLib.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.612,=C:\Program Files (x86)\Embarcadero\RAD Studio\10.0\source\data\dsnap\MidasLib.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.535,c:\program files (x86)\embarcadero\rad studio\10.0\source\data\dsnap\MidasLib.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.549,=vcl.dcp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.556,=dsnap.dcp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.254,=vcldb.dcp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.174,=C:\RAD Studio Projects\SMBComponents\SMBNumEdit\SMBNumEdit.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.894,C:\RAD Studio Projects\SMBComponents\SMBComponents.dproj=D:\Мои документы\RAD Studio\Projects\Package1.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.403,=C:\RAD Studio Projects\SMBComponents\SMBLabeledEdit\SMBLabeledEdit.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.242,=C:\RAD Studio Projects\SMBComponents\SMBDBGrid\SMBDBGrid.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.940,=rtl.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.612,=C:\Program Files (x86)\Embarcadero\RAD Studio\10.0\source\data\dsnap\MidasLib.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.561,=dbrtl.dcp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.549,=vcl.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.403,=C:\RAD Studio Projects\SMBComponents\SMBLabeledEdit\SMBLabeledEdit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.894,D:\Мои документы\RAD Studio\Projects\Package1.dproj=C:\RAD Studio Projects\SMBComponents\SMBComponents.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.242,=C:\RAD Studio Projects\SMBComponents\SMBDBGrid\SMBDBGrid.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.174,=C:\RAD Studio Projects\SMBComponents\SMBNumEdit\SMBNumEdit.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.938,=C:\RAD Studio Projects\SMBComponents\SMBLocalSettings\SMBLocalSettings.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.940,=rtl.dcp</Transaction>
   </Transactions>
 </BorlandProject>

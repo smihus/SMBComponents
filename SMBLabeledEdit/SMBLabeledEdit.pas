@@ -153,14 +153,6 @@ begin
   if FAutoValidate then DoValidate;
 end;
 
-//constructor TSMBLabeledEdit.Create(AOwner: TComponent);
-//begin
-//  inherited Create(AOwner);
-//  FIntValue   := 0;
-//  FFloatValue := 0;
-//  FValid      := True;
-//end;
-
 procedure TSMBLabeledEdit.DoValidate;
 begin
   FErrorMsg := '';
