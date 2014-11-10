@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.835,=dsnap.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,=C:\Users\1\Google Диск\RAD Studio Projects\SMBComponents\SMBLocalSettings\SMBLocalSettings.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.464,=designide.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.559,=rtl.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.223,=C:\Users\1\Google Диск\RAD Studio Projects\SMBComponents\SMBLabeledEdit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.483,=vclx.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.817,=vcl.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.492,=xmlrtl.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.285,C:\Users\1\Google Диск\RAD Studio Projects\SMBComponents\SMBLocalSettingsDataSet\SMBLocalSettingsDataSet.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.789,=C:\Users\1\Google Диск\RAD Studio Projects\SMBComponents\SMBNumEdit\SMBNumEdit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.817,=C:\Users\1\Google Диск\RAD Studio Projects\SMBComponents\SMBLocalSettingsDataSet\SMBLocalSettingsDataSet.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.474,=vclactnband.dcp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.841,=dbrtl.dcp</Transaction>
+    <Transaction>2014.11.09 15:42:35.436,=C:\Users\1\Documents\RAD Studio\10.0\Imports\Excel_TLB.pas</Transaction>
+    <Transaction>2014.11.09 15:42:35.453,=C:\Users\1\Documents\RAD Studio\10.0\Imports\Excel_TLB.pas</Transaction>
+  </Transactions>
+</BorlandProject>
