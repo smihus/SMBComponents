@@ -1,48 +1,44 @@
 package SMBComponents;
 
 {$R *.res}
-{$R '..\..\..\Documents\RAD Studio\10.0\Imports\Excel_TLB.dcr'}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
 {$BOOLEVAL OFF}
-{$DEBUGINFO OFF}
+{$DEBUGINFO ON}
 {$EXTENDEDSYNTAX ON}
 {$IMPORTEDDATA ON}
 {$IOCHECKS ON}
-{$LOCALSYMBOLS OFF}
+{$LOCALSYMBOLS ON}
 {$LONGSTRINGS ON}
 {$OPENSTRINGS ON}
-{$OPTIMIZATION ON}
+{$OPTIMIZATION OFF}
 {$OVERFLOWCHECKS OFF}
 {$RANGECHECKS OFF}
-{$REFERENCEINFO OFF}
+{$REFERENCEINFO ON}
 {$SAFEDIVIDE OFF}
-{$STACKFRAMES OFF}
+{$STACKFRAMES ON}
 {$TYPEDADDRESS OFF}
 {$VARSTRINGCHECKS ON}
 {$WRITEABLECONST OFF}
 {$MINENUMSIZE 1}
 {$IMAGEBASE $400000}
-{$DEFINE RELEASE}
+{$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'Mikhail Smirnov''s components'}
 {$IMPLICITBUILD ON}
 
 requires
   rtl,
   vcl,
-  designide,
-  vclactnband,
-  vclx,
-  xmlrtl,
   dsnap,
-  dbrtl;
+  dbrtl,
+  vcldb;
 
 contains
-  SMBNumEdit in 'SMBNumEdit\SMBNumEdit.pas',
   SMBLocalSettings in 'SMBLocalSettings\SMBLocalSettings.pas',
-  SMBLabeledEdit in 'SMBLabeledEdit.pas',
-  Excel_TLB in '..\..\..\Documents\RAD Studio\10.0\Imports\Excel_TLB.pas';
+  SMBNumEdit in 'SMBNumEdit\SMBNumEdit.pas',
+  SMBDBGrid in 'SMBDBGrid\SMBDBGrid.pas',
+  SMBLabeledEdit in 'SMBLabeledEdit\SMBLabeledEdit.pas',
+  SMB.Validators in 'C:\RAD Studio Projects\SMBLibs\SMB.Validators.pas';
 
 end.
