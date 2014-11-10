@@ -301,30 +301,30 @@ end;
 
 procedure TSMBLabeledEdit.ValidateFloat;
 begin
-  FValid := TryStrToFloatMsg(Caption, Text, FErrorMsg, FFloatValue);
+  FValid := TryStrToNumMsg(Caption, Text, FErrorMsg, FFloatValue);
   if FValid then
     case FValueConstraint of
       vctNone:                FValid := True;
-      vctGreaterThan:         FValid := IsGreaterThanFloat(Caption, FFloatValue, FMin, FErrorMsg);
-      vctGreaterThanOrEqual:  FValid := IsGreaterThanOrEqualFloat(Caption, FFloatValue, FMin, FErrorMsg);
-      vctLessThan:            FValid := IsLessThanFloat(Caption, FFloatValue, FMax, FErrorMsg);
-      vctLessThanOrEqual:     FValid := IsLessThanOrEqualFloat(Caption, FFloatValue, FMax, FErrorMsg);
-      vctBetween:             FValid := IsBetweenFloat(Caption, FFloatValue, FMin, FMax, FErrorMsg);
-      vctBetweenOrEqual:      FValid := IsBetweenFloat(Caption, FFloatValue, FMin, FMax, FErrorMsg, True);
+      vctGreaterThan:         FValid := IsGreaterThan(Caption, FFloatValue, FMin, FErrorMsg);
+      vctGreaterThanOrEqual:  FValid := IsGreaterThanOrEqual(Caption, FFloatValue, FMin, FErrorMsg);
+      vctLessThan:            FValid := IsLessThan(Caption, FFloatValue, FMax, FErrorMsg);
+      vctLessThanOrEqual:     FValid := IsLessThanOrEqual(Caption, FFloatValue, FMax, FErrorMsg);
+      vctBetween:             FValid := IsBetween(Caption, FFloatValue, FMin, FMax, FErrorMsg);
+      vctBetweenOrEqual:      FValid := IsBetween(Caption, FFloatValue, FMin, FMax, FErrorMsg, True);
     end;
 end;
 
 procedure TSMBLabeledEdit.ValidateInteger;
 begin
-  FValid := TryStrToIntMsg(Caption, Text, FErrorMsg, FIntValue);
+  FValid := TryStrToNumMsg(Caption, Text, FErrorMsg, FIntValue);
   case FValueConstraint of
     vctNone:                FValid := True;
-    vctGreaterThan:         FValid := IsGreaterThanInt(Caption, FIntValue, Trunc(FMin), FErrorMsg);
-    vctGreaterThanOrEqual:  FValid := IsGreaterThanOrEqualInt(Caption, FIntValue, Trunc(FMin), FErrorMsg);
-    vctLessThan:            FValid := IsLessThanInt(Caption, FIntValue, Trunc(FMax), FErrorMsg);
-    vctLessThanOrEqual:     FValid := IsLessThanOrEqualInt(Caption, FIntValue, Trunc(FMax), FErrorMsg);
-    vctBetween:             FValid := IsBetweenInt(Caption, FIntValue, Trunc(FMin), Trunc(FMax), FErrorMsg);
-    vctBetweenOrEqual:      FValid := IsBetweenInt(Caption, FIntValue, Trunc(FMin), Trunc(FMax), FErrorMsg, True);
+    vctGreaterThan:         FValid := IsGreaterThan(Caption, FIntValue, Trunc(FMin), FErrorMsg);
+    vctGreaterThanOrEqual:  FValid := IsGreaterThanOrEqual(Caption, FIntValue, Trunc(FMin), FErrorMsg);
+    vctLessThan:            FValid := IsLessThan(Caption, FIntValue, Trunc(FMax), FErrorMsg);
+    vctLessThanOrEqual:     FValid := IsLessThanOrEqual(Caption, FIntValue, Trunc(FMax), FErrorMsg);
+    vctBetween:             FValid := IsBetween(Caption, FIntValue, Trunc(FMin), Trunc(FMax), FErrorMsg);
+    vctBetweenOrEqual:      FValid := IsBetween(Caption, FIntValue, Trunc(FMin), Trunc(FMax), FErrorMsg, True);
   end;
 end;
 
@@ -332,12 +332,12 @@ procedure TSMBLabeledEdit.ValidateString;
 begin
   case FValueConstraint of
     vctNone:                FValid := True;
-    vctGreaterThan:         FValid := IsGreaterThanStr(Caption, Text, Trunc(FMin), FErrorMsg);
-    vctGreaterThanOrEqual:  FValid := IsGreaterThanOrEqualStr(Caption, Text, Trunc(FMin), FErrorMsg);
-    vctLessThan:            FValid := IsLessThanStr(Caption, Text, Trunc(FMax), FErrorMsg);
-    vctLessThanOrEqual:     FValid := IsLessThanOrEqualStr(Caption, Text, Trunc(FMax), FErrorMsg);
-    vctBetween:             FValid := IsBetweenStr(Caption, Text, Trunc(FMin), Trunc(FMax), FErrorMsg);
-    vctBetweenOrEqual:      FValid := IsBetweenStr(Caption, Text, Trunc(FMin), Trunc(FMax), FErrorMsg, True);
+    vctGreaterThan:         FValid := IsGreaterThan(Caption, Text, Trunc(FMin), FErrorMsg);
+    vctGreaterThanOrEqual:  FValid := IsGreaterThanOrEqual(Caption, Text, Trunc(FMin), FErrorMsg);
+    vctLessThan:            FValid := IsLessThan(Caption, Text, Trunc(FMax), FErrorMsg);
+    vctLessThanOrEqual:     FValid := IsLessThanOrEqual(Caption, Text, Trunc(FMax), FErrorMsg);
+    vctBetween:             FValid := IsBetween(Caption, Text, Trunc(FMin), Trunc(FMax), FErrorMsg);
+    vctBetweenOrEqual:      FValid := IsBetween(Caption, Text, Trunc(FMin), Trunc(FMax), FErrorMsg, True);
   end;
 end;
 
